@@ -1,0 +1,367 @@
+{
+    "_id": "62fa598443a489725c3f74bb",
+    "beamTransmission": 0.4,
+    "exposureTime": 0.01,
+    "runNumber": 300,
+    "prefix": "Thaumatin_1",
+    "folder": "20220815/Thaumatin_1",
+    "trackingId": "bf6c396e-5238-49a0-9363-16b6bbd893e9",
+    "detectorDistance": 162,
+    "mergeId": "puckPSIMX001_pos1",
+    "method": "standard",
+    "oscillationAngle": 0.2,
+    "pipeline_method": "native-sad",
+    "userAccount": "e20518",
+    "dataCatalog": "pending",
+    "wedges": [
+        {
+            "arm": true,
+            "start_angle": 0.0,
+            "num_frames": 1100,
+            "chi": 0.0,
+            "phi": 0.0,
+            "folder": "20220815/Thaumatin_1/set01_20220815_163436",
+            "prefix": "Thaumatin_1",
+            "run": 1,
+            "first_index": 1,
+            "wedgeID": 44652,
+            "currentStatus": "complete",
+            "statusTimestamp": "2022-08-15T16:35:05.703509",
+            "statusHistory": {
+                "collecting": "2022-08-15T16:34:44.230888",
+                "complete": "2022-08-15T16:35:05.703509"
+            }
+        },
+        {
+            "arm": true,
+            "start_angle": 0.0,
+            "num_frames": 1100,
+            "chi": 9.993,
+            "phi": 0.0,
+            "folder": "20220815/Thaumatin_1/set02_20220815_163436",
+            "prefix": "Thaumatin_1",
+            "run": 2,
+            "first_index": 1,
+            "wedgeID": 43721,
+            "currentStatus": "complete",
+            "statusTimestamp": "2022-08-15T16:35:26.612699",
+            "statusHistory": {
+                "collecting": "2022-08-15T16:35:05.724911",
+                "complete": "2022-08-15T16:35:26.612699"
+            }
+        },
+        {
+            "arm": true,
+            "start_angle": 0.0,
+            "num_frames": 1100,
+            "chi": 19.997,
+            "phi": 0.0,
+            "folder": "20220815/Thaumatin_1/set03_20220815_163436",
+            "prefix": "Thaumatin_1",
+            "run": 3,
+            "first_index": 1,
+            "wedgeID": 23116,
+            "currentStatus": "complete",
+            "statusTimestamp": "2022-08-15T16:35:47.738115",
+            "statusHistory": {
+                "collecting": "2022-08-15T16:35:26.633096",
+                "complete": "2022-08-15T16:35:47.738115"
+            }
+        }
+    ],
+    "FQDN": "/sls/X10SA/data/e20518/Data10/20220815/Thaumatin_1",
+    "beamline": "x10sa",
+    "beam_position_x": 2120.7,
+    "beam_position_y": 2146.0,
+    "wavelength": 0.99984,
+    "user": "e20518",
+    "uid": 20518,
+    "gid": 20518,
+    "createdOn": "2022-08-15T16:34:44.205000+00:00",
+    "aborted": false,
+    "lastUpdated": "2022-08-15T16:35:47.738000+00:00",
+    "metadata": [
+        {
+            "name": "numberOfShots",
+            "value": null
+        },
+        {
+            "name": "screeningAngle",
+            "value": null
+        },
+        {
+            "name": "timeResolvedTriggerRate",
+            "value": -1.0
+        },
+        {
+            "name": "timeResolvedTriggerLength",
+            "value": -1.0
+        },
+        {
+            "name": "startAngle",
+            "value": 0.0
+        },
+        {
+            "name": "cellHeight",
+            "value": null
+        },
+        {
+            "name": "omega",
+            "value": null
+        },
+        {
+            "name": "totalRange",
+            "value": 220.0
+        },
+        {
+            "name": "positions",
+            "value": []
+        },
+        {
+            "name": "aperture",
+            "value": 2
+        },
+        {
+            "name": "noAperture",
+            "value": false
+        },
+        {
+            "name": "noCollimator",
+            "value": false
+        },
+        {
+            "name": "detectorHeight",
+            "value": 0.0
+        },
+        {
+            "name": "noxray",
+            "value": false
+        },
+        {
+            "name": "timeResolvedEnabled",
+            "value": false
+        },
+        {
+            "name": "beamstopDistance",
+            "value": 25.0
+        },
+        {
+            "name": "chiphiangles",
+            "value": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    10.0,
+                    0.0
+                ],
+                [
+                    21.0,
+                    0.0
+                ]
+            ]
+        },
+        {
+            "name": "daqRepeatTimes",
+            "value": 1
+        },
+        {
+            "name": "firstIndex",
+            "value": 1
+        },
+        {
+            "name": "highResolution",
+            "value": 1.0
+        },
+        {
+            "name": "lowResolution",
+            "value": 50.0
+        },
+        {
+            "name": "points",
+            "value": []
+        },
+        {
+            "name": "repeatDaq",
+            "value": false
+        },
+        {
+            "name": "sampleDeliveryMethod",
+            "value": "RobotMount"
+        },
+        {
+            "name": "sdu",
+            "value": true
+        },
+        {
+            "name": "serverDebuggingEnabled",
+            "value": false
+        },
+        {
+            "name": "stillDaq",
+            "value": false
+        },
+        {
+            "name": "useSmartFolders",
+            "value": false
+        },
+        {
+            "name": "spreadsheetSampleInformation",
+            "value": {
+                "dewarname": "MX_TEST_CRYSTALS",
+                "puckname": "PSIMX001",
+                "pucktype": "Unipuck",
+                "pucklocationindewar": "pos 4",
+                "crystalname": "Thaumatin_1",
+                "positioninpuck": 1,
+                "priority": 1,
+                "comments": "test crystal plate ID 20152",
+                "pinbarcode": "",
+                "directory": "{date}/{prefix}",
+                "proteinname": "",
+                "oscillation": 0.2,
+                "exposure": 0.01,
+                "totalrange": 220.0,
+                "transmission": 40.0,
+                "targetresolution": 1.3,
+                "aperture": "",
+                "datacollectiontype": "multi-orientation",
+                "processingpipeline": "",
+                "spacegroupnumber": "",
+                "cellparameters": "",
+                "rescutkey": "",
+                "rescutvalue": "",
+                "userresolution": "",
+                "pdbmodel": "",
+                "autoprocfull": "",
+                "procfull": "",
+                "adpenabled": "",
+                "noano": "",
+                "trustedhigh": "",
+                "ffcscampaign": "",
+                "autoprocextraparams": "",
+                "chiphiangles": [
+                    [
+                        0.0,
+                        0.0
+                    ],
+                    [
+                        10.0,
+                        0.0
+                    ],
+                    [
+                        21.0,
+                        0.0
+                    ]
+                ],
+                "input_order": 1,
+                "samplemountcount": 0,
+                "samplestatus": "not present",
+                "puckaddress": "D4",
+                "username": "e20518",
+                "puck_number": 1,
+                "prefix": "Thaumatin_1",
+                "folder": "{date}/{prefix}",
+                "sdusafetycheck": "success",
+                "sdudiffcenter": "success",
+                "sdudaq": "running",
+                "sdumount": "success",
+                "sduopticalcenter": "success",
+                "sduunmount": "",
+                "samplebarcode": "",
+                "samplename": "Thaumatin_1",
+                "sampleposition": 1,
+                "puckbarcode": "PSIMX001",
+                "sdufolder": "/sls/MX/data/e20518/Data10/data_exchange/processing_output/sdu/20220815/Thaumatin_1/20220815_163211"
+            }
+        },
+        {
+            "name": "hub_params",
+            "value": {
+                "services_adp_enable": "True",
+                "adp_params_trustedhigh": "1.21",
+                "services_adp_method_key": "gopy",
+                "adp_params_autoprocFull": "false",
+                "adp_params_procFull": "True",
+                "adp_params_noAno": "false",
+                "adp_params_rescut_key": "is",
+                "adp_params_rescut_is": "1.0",
+                "adp_params_rescut_cc": "30",
+                "adp_params_userresolution": "None",
+                "adp_params_firstFrame": "None",
+                "adp_params_lastFrame": "None",
+                "adp_params_referencedata": "None",
+                "adp_params_sgnumber": "None",
+                "adp_params_ffcs_campaign": "false",
+                "adp_beamline_queue": "X10SA",
+                "adp_params_heavyatoms": "None",
+                "adp_params_pdbmodel": "None",
+                "adp_params_sx_noAno": "True",
+                "adp_params_sx_userresolution": "1.6",
+                "adp_params_sx_sgnumber": "4",
+                "adp_params_sx_referencedata": "None",
+                "adm_params_isa": "3.0",
+                "adm_params_rescut": "1.6",
+                "adm_params_mergereference": "None",
+                "adm_params_mergeid": "None",
+                "adp_params_sx_cellparams": {
+                    "a": "45.87",
+                    "b": "73.91",
+                    "c": "53.01",
+                    "alpha": "90",
+                    "beta": "109.29",
+                    "gamma": "90"
+                },
+                "adp_params_cellparams": {
+                    "a": 77.7,
+                    "b": 77.7,
+                    "c": 77.7,
+                    "alpha": 90,
+                    "beta": 90,
+                    "gamma": 90
+                }
+            }
+        },
+        {
+            "name": "targetResolution",
+            "value": 1.3
+        },
+        {
+            "name": "folder_timestamp",
+            "value": "20220815_163436"
+        },
+        {
+            "name": "eiger",
+            "value": true
+        },
+        {
+            "name": "beamlineFluxAtSample",
+            "value": 2332570000000.0
+        },
+        {
+            "name": "beamSizeWidth",
+            "value": 0.075
+        },
+        {
+            "name": "beamSizeHeight",
+            "value": 0.02
+        },
+        {
+            "name": "detectorInformation",
+            "value": {
+                "description": "Dectris EIGER2 Si 16M",
+                "serial_number": "E-32-0119",
+                "simplon_api": "integration-20.1.16.56035-g83342727b"
+            }
+        },
+        {
+            "name": "requestReceivedOn",
+            "value": "20220815_163436"
+        },
+        {
+            "name": "nimages_per_file",
+            "value": 100
+        }
+    ]
+}

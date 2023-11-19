@@ -12,7 +12,22 @@ mxdata.Adp
 
 * <b>standard</b>: data model for standard Adp processing. This comes in 3 flavours for the 3 processing options (gopy, xia2dials, autoPROC)
 
-* <b>native-sad</b>: data model for multi-orientation dataset collections for the 1 sample (single scan request, multiple datasets collected). Multiple native-sad entries in Adp. MergeId used for sxdm merging (results in Adm collection).
+* <b>native-sad</b>: data model for multi-orientation dataset collections for the 1 sample (single scan request, multiple datasets collected). Multiple native-sad entries in Adp. MergeId used for sxdm merging and the first dataset is used as reference (results in Adm collection).
+
+
+mxdata.Datasets
+===============
+
+* <b>native-sad</b>: multi-orientation dataset collection from a single scan request. Each collection at a different orientation is processed separately. 
 
 WIP... much more to come
 
+
+
+
+Contributors
+============
+* Jakub Kaminski
+* Justyna Wojdyla
+* Ezequiel Panepucci
+* Kate Smith
