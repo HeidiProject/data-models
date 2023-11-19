@@ -1,0 +1,104 @@
+{
+    "_id": "633c230443a489725c41c181",
+    "userAccount": "e14965",
+    "user": "e14965",
+    "uid": 15880,
+    "gid": 15880,
+    "createdOn": "2022-10-04T14:11:48.420000+00:00",
+    "lastUpdated": "2022-10-04T14:12:13.221000+00:00",
+    "beamline": "x10sa",
+    "trackingId": "78cadbe1-04ba-48b6-a69f-c80d76519aa8",
+    "method": "screening",
+    "beamTransmission": 0.1,
+    "beam_position_x": 2120.7042822735048,
+    "beam_position_y": 2146.2548207008554,
+    "detectorDistance": 200.0,
+    "exposureTime": 0.1,
+    "folder": "TestData/X10SA/screening",
+    "root_folder": "/sls/X06DA/data/e14965/Data10/TestData/X10SA/screening",
+    "numFramesTotal": 2,
+    "datasetNo": 1,
+    "numberOfExpectedDatasets": 1,
+    "oscillationAngle": 0.5,
+    "prefix": "lyso",
+    "runNumber": 19,
+    "wavelength": 0.9999,
+    "adpExecutionStack": {
+        "1": "strategy"
+    },
+    "statusHistory": {
+        "strategy": {
+            "pending": "2022-10-04T14:11:48.420000+00:00",
+            "running": "2022-10-04T14:11:48.538000+00:00",
+            "completed": "2022-10-04T14:12:13.221000+00:00"
+        }
+    },
+    "FQDN": {
+        "strategy": "/sls/X06DA/data/e14965/Data10/TestData/X10SA/screening/adp_lyso_19_20221004_141148_STRATEGY/eiger_strategy"
+    },
+    "angularRange": {
+        "strategy": null
+    },
+    "adpStatus": {
+        "strategy": "completed"
+    },
+    "adpInfo": {
+        "strategy": "Strategy worked"
+    },
+    "result": {
+        "strategy": {
+            "description": "complete native dataset",
+            "omega": 145.0,
+            "chi": 0.0,
+            "phi": 0.0,
+            "totalRange": 90.0,
+            "multiplicity": 3.4,
+            "completeness": 99.9,
+            "anomalous_completness": 93.9
+        },
+        "strategy_params": {
+            "spaceGroupNumber": "75",
+            "spaceGroupLabel": "P4",
+            "a": 78.9362,
+            "b": 78.9362,
+            "c": 36.9311,
+            "alpha": 90.0,
+            "beta": 90.0,
+            "gamma": 90.0,
+            "mosaicity": 0.1,
+            "highResolution": 1.68
+        }
+    },
+    "detector": "EIGER2 16M",
+    "roi": "16M",
+    "mergeFolder": null,
+    "mergeId": "lyso",
+    "seen": true,
+    "datasets_id": null,
+    "metadata": [
+        {
+            "name": "usedWedges",
+            "value": []
+        },
+        {
+            "name": "hostname",
+            "value": "x10sa-cn-112.psi.ch"
+        },
+        {
+            "name": "firstIndex",
+            "value": 1
+        },
+        {
+            "name": "highResolution",
+            "value": 1.2519569028348208
+        },
+        {
+            "name": "scanType",
+            "value": "screening"
+        },
+        {
+            "name": "result_metadata",
+            "value": []
+        }
+    ]
+}
