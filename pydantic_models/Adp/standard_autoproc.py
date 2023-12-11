@@ -7,153 +7,29 @@ from __future__ import annotations
 from typing import Any, List, Union
 
 from pydantic import BaseModel, Field
+from pydantic_models.Adp.adpexecutionstack import AdpExecutionStack
+from pydantic_models.Adp.fastxds import (Autoproc, StatusHistoryBase, FQDNBase, AngularRangeBase, AdpStatusBase, AdpInfoBase)
+from pydantic_models.Adp.xdsinputparams import FastXds2Item, FastXds3Item, FastXds3Params
 
-
-class AdpExecutionStack(BaseModel):
-    field_1: str = Field(..., alias='1')
-    field_2: str = Field(..., alias='2')
-    field_3: str = Field(..., alias='3')
-    field_4: str = Field(..., alias='4')
-
-
-class FastXds1(BaseModel):
-    pending: str
-    running: str
-    completed: str
-
-
-class FastXds2(BaseModel):
-    pending: str
-    running: str
-    completed: str
-
-
-class FastXds3(BaseModel):
-    pending: str
-    running: str
-    completed: str
-
-
-class Autoproc(BaseModel):
-    pending: str
-    running: str
-    completed: str
-
-
-class StatusHistory(BaseModel):
-    fast_xds_1: FastXds1
-    fast_xds_2: FastXds2
-    fast_xds_3: FastXds3
+class StatusHistory(StatusHistoryBase):
     autoproc: Autoproc
 
 
-class FQDN(BaseModel):
-    fast_xds_1: str
-    fast_xds_2: str
-    fast_xds_3: str
+class FQDN(FQDNBase):
     autoproc: str
 
 
-class AngularRange(BaseModel):
-    fast_xds_1: float
-    fast_xds_2: float
-    fast_xds_3: float
+class AngularRange(AngularRangeBase):
     autoproc: float
 
 
-class AdpStatus(BaseModel):
-    fast_xds_1: str
-    fast_xds_2: str
-    fast_xds_3: str
+class AdpStatus(AdpStatusBase):
     autoproc: str
 
 
-class AdpInfo(BaseModel):
-    fast_xds_1: str
-    fast_xds_2: str
-    fast_xds_3: str
+class AdpInfo(AdpInfoBase):
     autoproc: str
 
-
-class FastXds2Item(BaseModel):
-    order: str
-    star: str
-    lattice_character: str
-    bravais_lattice: str
-    quality_of_fit: float
-    cell_a: float
-    cell_b: float
-    cell_c: float
-    alpha: float
-    beta: float
-    gamma: float
-
-
-class FastXds3Item(BaseModel):
-    order: str
-    resolution_limit: Union[float, str]
-    observed_reflections: int
-    unique_reflections: int
-    possible_reflections: int
-    completeness: float
-    r_factor_observed: float
-    r_factor_expected: float
-    Isigma: float
-    rmeas: float
-    cc_half: float
-    anomalous_correlation: int
-    sigAno: float
-
-
-class XdsInputParams(BaseModel):
-    jobs: str
-    numberOfJobs: str
-    numberOfProcessors: str
-    nodes: str
-    beamXpix_XDS: float
-    beamYpix_XDS: float
-    detectorDistance: float
-    oscillationAngle: float
-    wavelength: float
-    dataFrames: str
-    firstIndex: int
-    numFrames: int
-    lastIndex: str
-    excludeReference: str
-    referenceData: str
-    excludeSG: str
-    sgNumber: str
-    excludeUnitCell: str
-    cellA: str
-    cellB: str
-    cellC: str
-    cellAlpha: str
-    cellBeta: str
-    cellGamma: str
-    refineIntegrate: str
-    friedel: str
-    highResolution: float
-    trustedHigh: str
-    excludePixelsInSpot: str
-    pixelsInSpot: str
-    nx: int
-    ny: int
-    overload: int
-
-
-class FastXds3Params(BaseModel):
-    spaceGroupNumber: str
-    spaceGroupLabel: str
-    a: float
-    b: float
-    c: float
-    alpha: float
-    beta: float
-    gamma: float
-    mosaicity: float
-    isa: float
-    wilsonBfactor: float
-    xds_input_params: XdsInputParams
 
 
 class AutoprocItem(BaseModel):
