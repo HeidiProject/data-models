@@ -14,6 +14,18 @@ mxdata.Adp
 
 * <b>native-sad</b>: data model for multi-orientation dataset collections for the 1 sample (single scan request, multiple datasets collected). Multiple native-sad entries in Adp. MergeId used for sxdm merging and the first dataset is used as reference (results in Adm collection).
 
+<h3>Adp methods supported</h3> 
+"screening"
+"standard"
+"standard-repeat"
+"bookmarks"
+"native-sad"
+"serial-xtal"
+"inverse-beam"
+"interleave-no-inverse"
+"interleave-and-inverse-first"
+"interleave-and-inverse-all"
+
 
 mxdata.Datasets
 ===============
